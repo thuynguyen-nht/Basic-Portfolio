@@ -58,7 +58,8 @@ nav ul {
 	margin: 0 auto;
 	padding: 20px;
 	background-color: #ffffff;
-	overflow: hidden; /*without this the image will be out of this container when float*/
+	overflow: auto; /*without this the image will be out of this container when float*/
+	clear: both; 
 }
 
 a {
@@ -83,6 +84,7 @@ h1{
 #text {
 	float: right;
 	width: 75%;
+	line-height: 30px;
 }
 
 #footer {
