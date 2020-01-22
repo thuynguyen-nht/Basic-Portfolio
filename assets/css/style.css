@@ -57,6 +57,14 @@ a {
 	color: #777777;
 }
 
+a:hover {
+	cursor: pointer;
+}
+
+#menu a:hover {
+	background-color: #5ACCC6;
+}
+
 #profileImg {
     width: 200px;
     height:auto;
@@ -83,6 +91,7 @@ h1{
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+	padding-bottom: 10px;
 }
 
 h6 {
@@ -122,6 +131,11 @@ button {
 	border: 0;
 	padding: 8px;
 } 
+
+button:hover {
+	cursor: pointer;
+	background-color: #FFA170;
+}
 
 .imageSection{
 	float: left;
